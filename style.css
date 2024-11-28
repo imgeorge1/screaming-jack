@@ -1,0 +1,21 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+#head-container {
+  margin-top: 100px;
+  position: block;
+  width: 600px;
+  height: 800px;
+}
+.head-part {
+  left: 0;
+  width: 100%;
+}
+#jaw {
+  transform: translateY(-3.9px);
+  transform-origin: top center;
+  transition: transform 0.1s;
+}
